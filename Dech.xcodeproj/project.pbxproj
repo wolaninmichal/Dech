@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E6933BC30B10D460047C5B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E6933B830B10D460047C5B9 /* Assets.xcassets */; };
+		8E6933BD30B10D460047C5B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6933B930B10D460047C5B9 /* ContentView.swift */; };
+		8E6933BE30B10D460047C5B9 /* DechApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6933BA30B10D460047C5B9 /* DechApp.swift */; };
+		8E6933C130B10D480047C5B9 /* DechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6933BF30B10D480047C5B9 /* DechTests.swift */; };
+		8E6933C430B10D4B0047C5B9 /* DechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6933C230B10D4B0047C5B9 /* DechUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EB8F55630AA306B001BFF81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EB8F54030AA3068001BFF81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EB8F54730AA3068001BFF81;
+			remoteInfo = Dech;
+		};
+		8EB8F56030AA306B001BFF81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EB8F54030AA3068001BFF81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EB8F54730AA3068001BFF81;
+			remoteInfo = Dech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E6933B830B10D460047C5B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E6933B930B10D460047C5B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E6933BA30B10D460047C5B9 /* DechApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DechApp.swift; sourceTree = "<group>"; };
+		8E6933BF30B10D480047C5B9 /* DechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DechTests.swift; sourceTree = "<group>"; };
+		8E6933C230B10D4B0047C5B9 /* DechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DechUITests.swift; sourceTree = "<group>"; };
+		8E6933C530B10EE00047C5B9 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Domain; sourceTree = "<group>"; };
+		8E6933C630B10F350047C5B9 /* DesignSystem */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DesignSystem; sourceTree = "<group>"; };
+		8E6933C730B10F6F0047C5B9 /* Persistence */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Persistence; sourceTree = "<group>"; };
+		8E6933C830B10FA70047C5B9 /* Features */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Features; sourceTree = "<group>"; };
+		8EB8F54830AA3068001BFF81 /* Dech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB8F55530AA306B001BFF81 /* DechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB8F55F30AA306B001BFF81 /* DechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EB8F54530AA3068001BFF81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		8EB8F55230AA306B001BFF81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		8EB8F55C30AA306B001BFF81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E6933B730B10D430047C5B9 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				8E6933C830B10FA70047C5B9 /* Features */,
+				8E6933C730B10F6F0047C5B9 /* Persistence */,
+				8E6933C530B10EE00047C5B9 /* Domain */,
+				8E6933C630B10F350047C5B9 /* DesignSystem */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		8E6933BB30B10D460047C5B9 /* Dech */ = {
+			isa = PBXGroup;
+			children = (
+				8E6933B830B10D460047C5B9 /* Assets.xcassets */,
+				8E6933B930B10D460047C5B9 /* ContentView.swift */,
+				8E6933BA30B10D460047C5B9 /* DechApp.swift */,
+			);
+			path = Dech;
+			sourceTree = "<group>";
+		};
+		8E6933C030B10D480047C5B9 /* DechTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E6933BF30B10D480047C5B9 /* DechTests.swift */,
+			);
+			path = DechTests;
+			sourceTree = "<group>";
+		};
+		8E6933C330B10D4B0047C5B9 /* DechUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E6933C230B10D4B0047C5B9 /* DechUITests.swift */,
+			);
+			path = DechUITests;
+			sourceTree = "<group>";
+		};
+		8EB8F53F30AA3068001BFF81 = {
+			isa = PBXGroup;
+			children = (
+				8E6933BB30B10D460047C5B9 /* Dech */,
+				8E6933C030B10D480047C5B9 /* DechTests */,
+				8E6933C330B10D4B0047C5B9 /* DechUITests */,
+				8E6933B730B10D430047C5B9 /* Packages */,
+				8EB8F54930AA3068001BFF81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EB8F54930AA3068001BFF81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EB8F54830AA3068001BFF81 /* Dech.app */,
+				8EB8F55530AA306B001BFF81 /* DechTests.xctest */,
+				8EB8F55F30AA306B001BFF81 /* DechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EB8F54730AA3068001BFF81 /* Dech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB8F56730AA306B001BFF81 /* Build configuration list for PBXNativeTarget "Dech" */;
+			buildPhases = (
+				8EB8F54430AA3068001BFF81 /* Sources */,
+				8EB8F54530AA3068001BFF81 /* Frameworks */,
+				8EB8F54630AA3068001BFF81 /* Resources */,
+			);
+			buildRules = (
+			);
+			name = Dech;
+			productName = Dech;
+			productReference = 8EB8F54830AA3068001BFF81 /* Dech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EB8F55430AA306B001BFF81 /* DechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB8F56A30AA306B001BFF81 /* Build configuration list for PBXNativeTarget "DechTests" */;
+			buildPhases = (
+				8EB8F55130AA306B001BFF81 /* Sources */,
+				8EB8F55230AA306B001BFF81 /* Frameworks */,
+				8EB8F55330AA306B001BFF81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EB8F55730AA306B001BFF81 /* PBXTargetDependency */,
+			);
+			name = DechTests;
+			productName = DechTests;
+			productReference = 8EB8F55530AA306B001BFF81 /* DechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EB8F55E30AA306B001BFF81 /* DechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB8F56D30AA306B001BFF81 /* Build configuration list for PBXNativeTarget "DechUITests" */;
+			buildPhases = (
+				8EB8F55B30AA306B001BFF81 /* Sources */,
+				8EB8F55C30AA306B001BFF81 /* Frameworks */,
+				8EB8F55D30AA306B001BFF81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EB8F56130AA306B001BFF81 /* PBXTargetDependency */,
+			);
+			name = DechUITests;
+			productName = DechUITests;
+			productReference = 8EB8F55F30AA306B001BFF81 /* DechUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EB8F54030AA3068001BFF81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					8EB8F54730AA3068001BFF81 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					8EB8F55430AA306B001BFF81 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 8EB8F54730AA3068001BFF81;
+					};
+					8EB8F55E30AA306B001BFF81 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 8EB8F54730AA3068001BFF81;
+					};
+				};
+			};
+			buildConfigurationList = 8EB8F54330AA3068001BFF81 /* Build configuration list for PBXProject "Dech" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EB8F53F30AA3068001BFF81;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8EB8F54930AA3068001BFF81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EB8F54730AA3068001BFF81 /* Dech */,
+				8EB8F55430AA306B001BFF81 /* DechTests */,
+				8EB8F55E30AA306B001BFF81 /* DechUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EB8F54630AA3068001BFF81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				8E6933BC30B10D460047C5B9 /* Assets.xcassets in Resources */,
+			);
+		};
+		8EB8F55330AA306B001BFF81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		8EB8F55D30AA306B001BFF81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EB8F54430AA3068001BFF81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				8E6933BD30B10D460047C5B9 /* ContentView.swift in Sources */,
+				8E6933BE30B10D460047C5B9 /* DechApp.swift in Sources */,
+			);
+		};
+		8EB8F55130AA306B001BFF81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				8E6933C130B10D480047C5B9 /* DechTests.swift in Sources */,
+			);
+		};
+		8EB8F55B30AA306B001BFF81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				8E6933C430B10D4B0047C5B9 /* DechUITests.swift in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EB8F55730AA306B001BFF81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EB8F54730AA3068001BFF81 /* Dech */;
+			targetProxy = 8EB8F55630AA306B001BFF81 /* PBXContainerItemProxy */;
+		};
+		8EB8F56130AA306B001BFF81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EB8F54730AA3068001BFF81 /* Dech */;
+			targetProxy = 8EB8F56030AA306B001BFF81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8EB8F56530AA306B001BFF81 /* Debug configuration for PBXProject "Dech" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EB8F56630AA306B001BFF81 /* Release configuration for PBXProject "Dech" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EB8F56830AA306B001BFF81 /* Debug configuration for PBXNativeTarget "Dech" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.Dech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EB8F56930AA306B001BFF81 /* Release configuration for PBXNativeTarget "Dech" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.Dech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EB8F56B30AA306B001BFF81 /* Debug configuration for PBXNativeTarget "DechTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.DechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dech.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dech";
+			};
+			name = Debug;
+		};
+		8EB8F56C30AA306B001BFF81 /* Release configuration for PBXNativeTarget "DechTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.DechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dech.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dech";
+			};
+			name = Release;
+		};
+		8EB8F56E30AA306B001BFF81 /* Debug configuration for PBXNativeTarget "DechUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.DechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dech;
+			};
+			name = Debug;
+		};
+		8EB8F56F30AA306B001BFF81 /* Release configuration for PBXNativeTarget "DechUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.DechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dech;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EB8F54330AA3068001BFF81 /* Build configuration list for PBXProject "Dech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB8F56530AA306B001BFF81 /* Debug configuration for PBXProject "Dech" */,
+				8EB8F56630AA306B001BFF81 /* Release configuration for PBXProject "Dech" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		8EB8F56730AA306B001BFF81 /* Build configuration list for PBXNativeTarget "Dech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB8F56830AA306B001BFF81 /* Debug configuration for PBXNativeTarget "Dech" */,
+				8EB8F56930AA306B001BFF81 /* Release configuration for PBXNativeTarget "Dech" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		8EB8F56A30AA306B001BFF81 /* Build configuration list for PBXNativeTarget "DechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB8F56B30AA306B001BFF81 /* Debug configuration for PBXNativeTarget "DechTests" */,
+				8EB8F56C30AA306B001BFF81 /* Release configuration for PBXNativeTarget "DechTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		8EB8F56D30AA306B001BFF81 /* Build configuration list for PBXNativeTarget "DechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB8F56E30AA306B001BFF81 /* Debug configuration for PBXNativeTarget "DechUITests" */,
+				8EB8F56F30AA306B001BFF81 /* Release configuration for PBXNativeTarget "DechUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EB8F54030AA3068001BFF81 /* Project object */;
+	validationLevel = 1;
+}
