@@ -1,32 +1,46 @@
 // swift-tools-version: 6.4
-// The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
+/// Dependencies shared by every feature target.
+let core: [Target.Dependency] = [
+    .product(name: "Domain", package: "Domain"),
+    .product(name: "DesignSystem", package: "DesignSystem"),
+]
+
+/// Dependencies shared by every test target.
+let testing: [Target.Dependency] = [
+    .product(name: "Domain", package: "Domain"),
+    .product(name: "DomainTesting", package: "Domain"),
+]
+
 let package = Package(
     name: "Features",
+    platforms: [.iOS(.v17)],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
-        .library(
-            name: "Features",
-            targets: ["Features"]
-        ),
+        // only Root is public, the app can't import individual features directly
+        .library(name: "Root", targets: ["Root"]),
+    ],
+    dependencies: [
+        .package(path: "../Domain"),
+        .package(path: "../DesignSystem"),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
+        // Features
+        .target(name: "Onboarding", dependencies: core),
+        .target(name: "Home", dependencies: core),
+        .target(name: "Plan", dependencies: core),
+        .target(name: "Settings", dependencies: core),
         .target(
-            name: "Features",
-            swiftSettings: [
-                .enableUpcomingFeature("ApproachableConcurrency"),
-            ],
+            name: "Root",
+            dependencies: core + ["Onboarding", "Home", "Plan", "Settings"]
         ),
-        .testTarget(
-            name: "FeaturesTests",
-            dependencies: ["Features"],
-            swiftSettings: [
-                .enableUpcomingFeature("ApproachableConcurrency"),
-            ],
-        ),
+
+        // Tests
+        .testTarget(name: "OnboardingTests", dependencies: ["Onboarding"] + testing),
+        .testTarget(name: "HomeTests", dependencies: ["Home"] + testing),
+        .testTarget(name: "PlanTests", dependencies: ["Plan"] + testing),
+        .testTarget(name: "SettingsTests", dependencies: ["Settings"] + testing),
+        .testTarget(name: "RootTests", dependencies: ["Root", "Onboarding"] + testing),
     ]
 )
