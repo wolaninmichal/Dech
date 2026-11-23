@@ -32,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E02C2D830B1AE9C006C329D /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
+		8E367FB830B1B2DD0087FF6E /* Notifications */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Notifications; sourceTree = "<group>"; };
 		8E6933B830B10D460047C5B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E6933B930B10D460047C5B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E6933BA30B10D460047C5B9 /* DechApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DechApp.swift; sourceTree = "<group>"; };
@@ -68,10 +70,12 @@
 		8E6933B730B10D430047C5B9 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				8E6933C830B10FA70047C5B9 /* Features */,
-				8E6933C730B10F6F0047C5B9 /* Persistence */,
+				8E367FB830B1B2DD0087FF6E /* Notifications */,
 				8E6933C530B10EE00047C5B9 /* Domain */,
+				8E02C2D830B1AE9C006C329D /* Networking */,
+				8E6933C730B10F6F0047C5B9 /* Persistence */,
 				8E6933C630B10F350047C5B9 /* DesignSystem */,
+				8E6933C830B10FA70047C5B9 /* Features */,
 			);
 			path = Packages;
 			sourceTree = "<group>";
